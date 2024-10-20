@@ -1,1 +1,1 @@
- ffmpeg -i <input> -c:a libfdk_aac -vbr 3 <output>.m4a
+ ffmpeg -i <input> -vn -c:a libfdk_aac -vbr 3 <output>.m4a
